@@ -1,0 +1,3 @@
+#!/bin/bash
+iclude <stdio.h>
+printf("hello_world")
