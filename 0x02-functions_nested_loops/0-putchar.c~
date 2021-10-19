@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void)
+{
+        putchar('_');
+        putchar('h');
+	putchar('\n');
+	return(0);
+}
