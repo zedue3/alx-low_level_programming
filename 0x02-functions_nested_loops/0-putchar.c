@@ -4,7 +4,7 @@
  *main- prints _putchar
  *@void: Empty parameter list for main
  *Dscription: prints _putchar without stdio
- *returns 0
+ *Return: 0 for succes
 */
 
 int main(void)
