@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *main: prints _putchar
+ *main- prints _putchar
+ *@void: Empty parameter list for main
+ *Dscription: prints _putchar without stdio
  *returns 0
 */
 
