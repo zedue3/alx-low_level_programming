@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	char lower_case_letter;
 
-	for (lower_case_letter = 'a'; lower_case_letter <= 'z'; i++)
+	for (lower_case_letter = 'a'; lower_case_letter <= 'z'; lower_case_letter++)
 	{
 		_putchar(lower_case_letter);
 	}
