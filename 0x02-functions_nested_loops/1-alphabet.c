@@ -8,11 +8,12 @@
 void print_alphabet(void)
 {
 
-	char lower_case_letter;
+	char lower_case_letter = 'a';
 
-	for (lower_case_letter = 'a'; lower_case_letter <= 'z'; lower_case_letter++)
+	while (lower_case_letter <= 'z')
 	{
 		_putchar(lower_case_letter);
+		lower_case_letter++
 	}
 	_putchar('\n');
 }
