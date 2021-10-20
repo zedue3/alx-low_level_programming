@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  *_abs - prints an absolute number
  *@int: parameter
  *Returns: always positive
