@@ -5,9 +5,8 @@
  *@int: parameter
  *Returns: always positive
  */
-int _abs(int)
+int _abs(int a)
 {
-	int a;
 	if (a < 0)
 		return (-a);
 	else
