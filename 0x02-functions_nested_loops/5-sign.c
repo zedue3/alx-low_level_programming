@@ -12,15 +12,15 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-	while (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
 	while (n == 0)
 	{
 		_putchar('0');
 		return (0);
+	}
+	while (n > 0)
+	{
+		_putchar('1');
+		return (1);
 	}
 
 }
