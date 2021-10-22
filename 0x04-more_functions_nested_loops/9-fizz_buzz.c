@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /**
+ *main - work for the body
+ *Return: returns the fizz buzz
  *
  */
 int main(void)
@@ -17,4 +19,5 @@ int main(void)
 			printf("FizzBuzz ");
 		printf("%d ",i);
 	}
+	return (0);
 }
