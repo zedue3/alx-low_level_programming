@@ -7,10 +7,8 @@
  */
 void rev_string(char *s)
 {
-	char *first;
-	char *last;
-	*first - s;
-	*last - s;
+	char *first = *first - s;
+	char *last = *last - s;
 
 	while (*last)
 		++last;
