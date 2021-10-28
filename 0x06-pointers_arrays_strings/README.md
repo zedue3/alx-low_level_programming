@@ -1,0 +1,1 @@
+this is to ellaboratee more on the c pointers and arraysS
