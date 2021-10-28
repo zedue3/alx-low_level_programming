@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- *_strncat - concatinates source with destination by the value of n
- *@dest: is destination
- *@src: is source
- *@n: is integer
- *Return: returns the concatinated value
- *Description - used to concatenat
- */
+ * _strncat - concatenates values from src to dest
+ * @src: source
+ * @dest: destination
+ * @n: number of values to concatenate
+ * Description: concatenates n number of values from src to end of dest
+ * Return: pointer to dest
+ **/
+
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-	int j;
+	int i, j;
+
+	i = 0;
 
 	while (dest[i] != '\0')
 		i++;
