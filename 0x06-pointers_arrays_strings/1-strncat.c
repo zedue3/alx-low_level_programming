@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *_strncat - concatinates source with destination by the value of n
  *@dest: is destination
@@ -6,6 +7,7 @@
  *@n: is integer
  *Return: returns the concatinated value
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
@@ -14,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[i] != '\0')
 		i++;
 
-	for (j = 0; j != n; j++)
+	for (j = 0; j < n; j++)
 	{
 		dest[i] = src[j];
 		i++;
