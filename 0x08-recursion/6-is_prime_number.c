@@ -6,7 +6,7 @@
  *Description: will evaluate weither n is prime or not
  *Return: returns the value
  */
-int is_prime(int n, int i)
+int prime(int n, int i)
 {
 	if (n % i == 0)
 		return (0);
