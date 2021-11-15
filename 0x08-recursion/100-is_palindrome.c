@@ -40,12 +40,10 @@ int palind(char *s, int n, int i)
 }
 
 /**
- *
  *is_palindrome - checks weither palindrome or not
  *@s: is the string to be checked
  *Description: determines if string is palindrome
  *Return: 1 if it is palindrome 0 if it is not
- *
  */
 int is_palindrome(char *s)
 {
