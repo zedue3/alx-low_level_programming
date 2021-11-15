@@ -5,7 +5,8 @@
  *Description: this code is to print the inputed string in reverse
  *Return: nothing
  */
-void _print_rev_recursion(char *s){
+void _print_rev_recursion(char *s)
+{
 	if (s[0] == '\0')
 		return;
 
