@@ -1,1 +1,1 @@
-# alx-low_level_programming
+working with structures and typedef
