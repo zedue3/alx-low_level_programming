@@ -1,4 +1,4 @@
-#ifndef ADDITION
-#define ADDITION
-#define SUM(A, B) (A + B)
+#ifndef ABSOLUTE
+#define ABSOLUTE
+#define ABS(X) ((X < 0) ? (-X) : (X))
 #endif
