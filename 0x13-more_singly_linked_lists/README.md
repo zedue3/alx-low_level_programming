@@ -1,0 +1,1 @@
+a continued singly linked list
